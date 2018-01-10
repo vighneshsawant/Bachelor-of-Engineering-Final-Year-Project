@@ -1,0 +1,92 @@
+.polling_message {
+  color: white;
+  float: left;
+  margin:10px 60px; 
+  font-size:25px;
+}
+.page{
+	text-decoration:none;
+	color:white;
+}
+.namelinks{
+	width:100%;
+}
+.view_port1 {
+  margin:20px;
+  background-color: black;
+  height: 40px;
+  width: 66%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.view_port2 {
+  margin:20px;
+  background-color: black;
+  height: 40px;
+  width: 66%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.view_port3 {
+  margin:20px;
+  background-color: black;
+  height: 40px;
+  width: 66%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.view_port4 {
+  margin:20px;
+  background-color: black;
+  height: 40px;
+  width: 66%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.view_port5 {
+  margin:20px;
+  background-color: black;
+  height: 40px;
+  width: 66%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.cylon_eye {
+	background-color:red;
+  /*background-image: url("../../images/get.jpg");*/
+   background-image: -webkit-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:    -moz-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:      -o-linear-gradient(    left, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  background-image:         linear-gradient(to right, rgba( 0,0,0,0.9 ) 25%, rgba( 0,0,0,0.1 ) 50%, rgba( 0,0,0,0.9 ) 75%);
+  color: white;
+  height: 100%;
+  width: 11%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+     -moz-animation: 4s linear 0s infinite alternate move_eye;
+       -o-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+   @-moz-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+     @-o-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+		
+		
+.view_port1 {
+  animation-duration: 1s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+/*@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
